@@ -21,6 +21,8 @@ public class MainPageView extends ViewImpl implements MainPagePresenter.MyView {
 	private final TextBox nameField;
 	private final Button sendButton;
 
+	/* This is an another comment again */
+	
 	@Inject
 	public MainPageView() {
 
