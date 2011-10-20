@@ -20,12 +20,12 @@ public class MainPageView extends ViewImpl implements MainPagePresenter.MyView {
 	private final Label errorLabel;
 	private final TextBox nameField;
 	private final Button sendButton;
+    /* This is another comment */
 
 	/* This is an another comment again */
 	
 	@Inject
 	public MainPageView() {
-
 		sendButton = new Button("Send");
 		nameField = new TextBox();
 		nameField.setText("GWT User");
