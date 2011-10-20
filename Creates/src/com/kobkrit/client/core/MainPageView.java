@@ -20,7 +20,6 @@ public class MainPageView extends ViewImpl implements MainPagePresenter.MyView {
 	private final Label errorLabel;
 	private final TextBox nameField;
 	private final Button sendButton;
-	/* This is the test */
 
 	@Inject
 	public MainPageView() {
